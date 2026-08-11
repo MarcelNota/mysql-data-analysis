@@ -1,5 +1,6 @@
-use mavenmovies;
+USE mavenmovies;
 
-select distinct
-rental_duration
-from film;
+-- Retrieve the unique rental durations available in the film table
+SELECT DISTINCT
+    rental_duration
+FROM film;
