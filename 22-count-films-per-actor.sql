@@ -1,4 +1,4 @@
-SELECT DISTINCT
+SELECT
     actor.first_name,
     actor.last_name,
     
